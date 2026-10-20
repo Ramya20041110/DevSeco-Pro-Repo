@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ShopSphere E-commerce</title>
+</head>
+<body>
+    <h1>ShopSphere</h1>
+    <p>Welcome to our e-commerce store.</p>
+
+    <h2>Products</h2>
+    {% for product in products %}
+    <div>
+        <h3>{{ product.name }}</h3>
+        <p>Price: ₹{{ "%.2f"|format(product.price) }}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>
+
