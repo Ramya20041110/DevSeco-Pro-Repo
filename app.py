@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 def get_db_connection():
     return mysql.connector.connect(
-        host="student-db.c582isu0m6qe.ap-south-1.rds.amazonaws.com",
+        host="devops-pro-db.c582isu0m6qe.ap-south-1.rds.amazonaws.com",
         user="admin",
         password="YOUR-RDS-PASSWORD",
         database="studentdb"
