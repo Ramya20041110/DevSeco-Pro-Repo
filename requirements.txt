@@ -1,7 +1,2 @@
-
 Flask
-gunicorn
-psycopg[binary]
-Flask-SQLAlchemy
-pytest
-
+mysql-connector-python
