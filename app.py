@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 def get_db_connection():
     return mysql.connector.connect(
-        host="arn:aws:rds:ap-south-1:819439780802:db:terraform-1e113467e4d2fd6ec24aede1cc",
+        host="terraform-1e113467e4d2fd6ec24aede1cc.c582isu0m6qe.ap-south-1.rds.amazonaws.com",
         user="admin",
         password="AdminUser5564",
         database="devopspro123"
